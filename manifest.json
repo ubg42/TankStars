@@ -1,0 +1,44 @@
+{
+  "name": "Tank Stars Online",
+  "short_name": "Tank Stars Online",
+  "id": "com.playgendary.tanks",
+  "description": "Are you ready for an action-packed 2D tank warfare? Welcome to the Tank Stars, one of the best battle tank games that you can play with friends. Find the right shooting angle and unleash your iron force against your foe's war machines!",
+  "start_url": "index.html",
+  "display": "fullscreen",
+  "background_color": "#ffffff",
+  "theme_color": "#000000",
+  "launch_handler": {
+    "client_mode": "auto"
+  },
+  "ms_start_compatible": true,
+  "categories": [
+    "games"
+  ],
+  "dir": "auto",
+  "orientation": "any",
+  "screenshots": [
+    {
+      "src": "App/1920x1080.png",
+      "sizes": "1920x1080",
+      "type": "image/png",
+      "platform": "wide"
+    }
+  ],
+  "icons": [
+    {
+      "src": "App/512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "App/192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "App/1920x1080.png",
+      "sizes": "1920x1080",
+      "type": "image/png"
+    }
+  ]
+}
