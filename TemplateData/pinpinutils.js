@@ -6,11 +6,7 @@ const getDataOverride = [];
 const setDataOverride = [];
 const removeDataOverride = [];
 
-// START YAHOO SDK & GMO Hooks
-function wkbGameStart(deviceType, callbackStart, callbackShowAd, callbackSendScore, callbackError, callbackStartLog) {
-    gameEndedCallbacks.push((s) => {
-        callbackSendScore({score: s});
-    });
+
     gameStartedCallbacks.push(callbackStartLog);
 
     //If method window.wkbGetUserData exists, add it to getDataOverride, as well as window.wkbSetUserData and window.wkbRemoveUserData
